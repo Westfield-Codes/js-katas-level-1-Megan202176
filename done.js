@@ -9,7 +9,10 @@ var color = "green"
 alert ("My favorite color is" + color );
 
 /* Prompt */
-
+// make a string variable for color, but prompt the user for their favorite color.
+var color = prompt ("What is your favorite color?")
+// alert color plus " is a nice color!" - note the space in the quotes.
+alert (color + " is a nice color.")
 /* Prompt with Conditional */
 
 
@@ -24,10 +27,22 @@ var fname="Megan";
 alert(fname +" is "+ age+ " years old")
 
 /* Prompt */
-
+// make an integer variable for age, prompt user for their age
+var age = prompt ("How old are you")
+// make a string variable for name, prompt user for their name
+var name = prompt ("What is your name?")
+// alert name is age years old
+alert ( "Your name is "+ name + " and you are " + age)
 
 /* Prompt with Conditional */
-
+// make an integer variable for age, prompt user for it
+var age = prompt ("What is your age?");
+// make a string variable for name, prompt user for it
+var firstName = prompt ("What is yout name?")
+// if age is greater than 16, alert "you don't look that old!"
+if (age > 16) alert ("you don't look that old!")
+    else alert (firstName + " is " + age + " years old.")
+// otherwise alert name is age years old
 
 /* ICE CREAM */
 

@@ -31,19 +31,20 @@
 
 /* Var Alert Prompt Conditional */
 // make an integer variable for age, prompt user for it
+var age = prompt ("What is your age?");
 // make a string variable for name, prompt user for it
+var firstName = prompt ("What is yout name?")
 // if age is greater than 16, alert "you don't look that old!"
+if (age > 16) alert ("you don't look that old!")
+    else alert (firstName + " is " + age + " years old.")
 // otherwise alert name is age years old
 
 /* ICE CREAM CONE KATAS */
 
 /* Var Alert Prompt */
 // make a string variable for favorite ice cream flavor, prompt user for it
-var flavor=prompt("favorite flavor?");
 // make an integer variable for number of scoops on the cone, prompt user for it
-var scoops = prompt("number of scoops?")
 // alert "You want " scoops "scoops of " flavor
-alert("you want "+ scoops+" scoops of "+ flavor)
 
 /* Var Alert Prompt Conditional */
 // make a string variable for favorite ice cream flavor, prompt user for it
@@ -55,11 +56,9 @@ alert("you want "+ scoops+" scoops of "+ flavor)
 
 /* Var Alert Prompt */
 // make a variable for a pet type, prompt user for it 
- var type = prompt("What type of animal is your pet?")
 // make a variable for a pet name, prompt user for it
-var pName = prompt("What is it's name?")
-// alert "You have a pet type named pet name
-alert("You have a "+ type + " named " + pName);
+// alert "You have a pet type named pet name 
+
 /* Var Alert Prompt Conditionals */
 // make a variable for pet type, prompt user for it 
 // make a variable for pet name, prompt user for it
